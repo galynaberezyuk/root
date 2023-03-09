@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 2;
+    background-color: rgb(216, 216, 158);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+  color: rgb(48, 72, 48);
+}
+.center{
+    width: 950px;
+    margin: 0 auto;
+}
+
+.green-p{
+    color: green;
+    width: 500px;
+    font-size: 1.5rem;
+}
+
+img {
+    border-radius: 8px;
+  }
+  img {
+    padding-right: 10px;
+    width: 30;
+  }
+
+  .navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    width: 100%;
+    background-color: rgb(51, 75, 50);
+    height: 8%;
+
+  }
+  .navbar a {
+    text-transform: uppercase;
+    color: antiquewhite;
+    text-decoration: none;
+
+  }
+
+iframe {
+  margin-top: 40px;
+}
+
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .top{
+    margin: 0;
+    padding: 2;
+    display: block;
+    position: relative;
+    align-items: center;
+    justify-content:space-evenly;
+
+  }
+
+  .bottom{
+    margin: 0 auto;
+    padding: 2px;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    text-align: center; 
+
+  }
+
+  .top h2{
+    text-align: center;
+
+  }
+
+  .bottom h3{
+    align-items: center;
+    text-align: center;
+  }
+
+  .image1.JPG {
+float: left;
+padding-right: 10px;
+  }
